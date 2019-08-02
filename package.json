@@ -1,7 +1,7 @@
 {
   "private": false,
   "name": "v-simple-image-upload",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A simple image upload component with image preview and upload, remove and change buttons",
   "main": "./dist/index.js",
   "scripts": {
@@ -16,10 +16,7 @@
   ],
   "author": "Sandip Shrestha",
   "license": "MIT",
-  "dependencies": {
-    "node-sass": "^4.12.0",
-    "sass-loader": "^7.1.0"
-  },
+  "dependencies": {},
   "files": [
     "dist/*"
   ],

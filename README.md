@@ -13,11 +13,11 @@ npm i v-simple-image-upload
 ## Usage
 ```javascript
 import Vue from 'vue';
-import SimpleImageInput from 'v-simple-image-upload';
+import SimpleImageUpload from 'v-simple-image-upload';
  
-Vue.use(SimpleImageInput);
+Vue.use(SimpleImageUpload);
 
-<simple-image-input 
+<simple-image-upload 
   input-name="featured_image" 
   v-model="values.featured_image" 
   @change="(image)=>{values.featured_image = image}">

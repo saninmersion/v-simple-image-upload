@@ -74,70 +74,57 @@
 </script>
 
 
-<style lang="scss">
+<style lang="css">
 
     .simple_image_input {
         display: inline-block;
         margin-bottom: 0;
-
-        .simple_image_input__preview {
-            width: 100%;
-            height: 100%;
-            margin-bottom: 10px;
-
-            img {
-                width: 300px;
-                height: 250px;
-                object-fit: cover;
-            }
-        }
-
-        .simple_image_input__controls {
-            display: flex;
-
-            > .btn {
-                margin-right: 10px;
-            }
-
-            .btn {
-                color: #fff;
-                border: 1px solid transparent;
-                border-radius: .25rem;
-                padding: .375rem .75rem;
-                font-size: 1rem;
-                line-height: 1.5;
-
-
-                &.btn__upload {
-                    background: gray;
-                }
-
-                &.btn__change {
-                    background: blue;
-                    margin-right: 10px;
-                }
-
-                &.btn__remove {
-                    background: red;
-                }
-            }
-
-            .file__input {
-                position: relative;
-
-                input {
-                    position: absolute;
-                    top: 0;
-                    right: 0;
-                    width: 100%;
-                    height: 100%;
-                    margin: 0;
-                    font-size: 24px;
-                    opacity: 0;
-                    }
-            }
-
-        }
-
+    }
+    .simple_image_input .simple_image_input__preview {
+        width: 100%;
+        height: 100%;
+        margin-bottom: 10px;
+    }
+    .simple_image_input .simple_image_input__preview img {
+        width: 300px;
+        height: 250px;
+        object-fit: cover;
+    }
+    .simple_image_input .simple_image_input__controls {
+        display: flex;
+    }
+    .simple_image_input .simple_image_input__controls > .btn {
+        margin-right: 10px;
+    }
+    .simple_image_input .simple_image_input__controls .btn {
+        color: #fff;
+        border: 1px solid transparent;
+        border-radius: 0.25rem;
+        padding: 0.375rem 0.75rem;
+        font-size: 1rem;
+        line-height: 1.5;
+    }
+    .simple_image_input .simple_image_input__controls .btn.btn__upload {
+        background: gray;
+    }
+    .simple_image_input .simple_image_input__controls .btn.btn__change {
+        background: blue;
+        margin-right: 10px;
+    }
+    .simple_image_input .simple_image_input__controls .btn.btn__remove {
+        background: red;
+    }
+    .simple_image_input .simple_image_input__controls .file__input {
+        position: relative;
+    }
+    .simple_image_input .simple_image_input__controls .file__input input {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        font-size: 24px;
+        opacity: 0;
     }
 </style>
