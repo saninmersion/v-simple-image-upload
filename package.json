@@ -1,7 +1,7 @@
 {
   "private": false,
   "name": "v-simple-image-upload",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A simple image upload component with image preview and upload, remove and change buttons",
   "main": "./dist/index.js",
   "scripts": {
