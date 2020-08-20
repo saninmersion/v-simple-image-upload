@@ -1,12 +1,12 @@
 {
   "private": false,
-  "name": "v-simple-image-upload",
-  "version": "0.1.1",
+  "name": "v-simple-image-input",
+  "version": "0.0.6",
   "description": "A simple image upload component with image preview and upload, remove and change buttons",
   "main": "./dist/index.js",
   "scripts": {
     "dev": "vue serve SimpleImageUpload.vue",
-    "build": "bili --name index --plugin vue --vue.css false"
+    "build": "bili src/index.js"
   },
   "keywords": [
     "vue",
@@ -16,13 +16,13 @@
   ],
   "author": "Sandip Shrestha",
   "license": "MIT",
-  "dependencies": {},
   "files": [
     "dist/*"
   ],
   "devDependencies": {
-    "bili": "^4.8.1",
-    "rollup-plugin-vue": "^5.0.1",
-    "vue-template-compiler": "^2.6.10"
+    "bili": "^5.0.5",
+    "vue": "^2.6.11",
+    "vue-template-compiler": "^2.6.11",
+    "rollup-plugin-vue": "4.7.1"
   }
 }

@@ -1,11 +1,10 @@
+// bili.config.js
 module.exports = {
-  banner: true,
-  output: {
-    extractCSS: false,
-  },
+  input: 'src/index.js',
   plugins: {
     vue: {
-      css: true
+      css: true,
     }
-  }
-};
+  },
+  "files": ["dist"]
+}

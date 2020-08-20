@@ -6,7 +6,7 @@
         <div class="simple_image_input__controls">
             <div class="file__input">
                 <button v-if="isFileInputNew" class="btn btn__upload">
-                    <i class="fa fa-upload margin-right-10"></i> Upload an image
+                    <i class="fa fa-upload margin-right-10"></i> {{ label }}
                 </button>
                 <button v-if="!isFileInputNew" class="btn btn__change">
                     Change
@@ -23,6 +23,7 @@
         name: "SimpleImageInput",
         props: {
             inputName: { type: String, required: false, default: "image" },
+            label: { type: String, required: false, default: "Upload an image" },
             value: { required: false },
             removable: { required: false, type: Boolean, default: true },
         },
