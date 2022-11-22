@@ -23,6 +23,6 @@
     "bili": "^5.0.5",
     "vue": "^2.6.11",
     "vue-template-compiler": "^2.6.11",
-    "rollup-plugin-vue": "4.7.1"
+    "rollup-plugin-vue": "6.0.0"
   }
 }
